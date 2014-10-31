@@ -413,8 +413,8 @@
       dragger.minHeight = min(dragger.maxHeight, dragger.minHeight);
 
       // Center the dragger by default
-      dragger.height *= 0.8;
-      dragger.width *= 0.8;
+      // dragger.height *= 0.8;
+      // dragger.width *= 0.8;
       dragger.left = (cropper.width - dragger.width) / 2;
       dragger.top = (cropper.height - dragger.height) / 2;
 
